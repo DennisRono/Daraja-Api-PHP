@@ -11,16 +11,16 @@
     $server = (isset($_SERVER["HTTPS"]) ? "https" : "http") . "://" . (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"] : '');
 
     /* global details */
-    $key = "a5YkD1vMqhRvZ9yDlbwlW0PCTbk08fBk";
-    $secret = "IP5STQzreXu4SGBQ";
-    $shortcode = "174379";
+    $key = "YOUR_CONSUMER_KEY_HERE";
+    $secret = "YOUR_CONSUMER_SECRET";
+    $shortcode = "SHORTCODE";
     $timestamp = date("YmdHis");
-    $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
+    $passkey = "YOUR_PASS_KEY_HERE";
     $password = base64_encode($shortcode.$passkey.$timestamp); // shortcode + passkey + timestamp;
-    $phone = "254798116710";
+    $phone = "YOUR_PHONE_NUMBER_HERE";
     $ammount = 100;
     $callback_url = $server."/api/callback/index.php"; // Where a response is to be sent when a transaction times out
-    $reference = "thenullsoft";
+    $reference = "YOUR_COMPANY_NAME_HERE";
     $description = "Transaction Description";
     $remark = "Remark";
 
