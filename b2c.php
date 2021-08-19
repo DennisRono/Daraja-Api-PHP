@@ -1,6 +1,6 @@
 <?php
-    $key = "a5YkD1vMqhRvZ9yDlbwlW0PCTbk08fBk";
-    $secret = "IP5STQzreXu4SGBQ";
+    $key = "YOUR_CONSUMER_KEY_HERE";
+    $secret = "YOUR_CONSUMER_SECRET";
 
     //** get access token **//
     $headers = ['Content-Type:application/json; charset=utf8'];
