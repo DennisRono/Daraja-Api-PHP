@@ -1,3 +1,7 @@
+//**
+    author : Dennis Kibet
+    website: https://denniskibet.com
+**//
 <?php
     $key = "YOUR_CONSUMER_KEY_HERE";
     $secret = "YOUR_CONSUMER_SECRET";
